@@ -1,0 +1,25 @@
+.header{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(48, 112, 250);
+    color: whitesmoke;
+}
+.header-title{
+    font-size: 2em;
+    cursor: pointer;
+}
+.home-url{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 2px;
+    margin-right: 50px;
+}
+.chat{
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 60px);
+}

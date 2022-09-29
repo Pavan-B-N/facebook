@@ -1,0 +1,66 @@
+.leftbar{
+    background-color:white;
+    min-width: 200px;
+    max-width: 300px;
+    flex: 1.2;
+    padding: 0.5em;
+    overflow: hidden;
+    overflow-y: auto;
+}
+@media screen and (max-width:980px) {
+    .leftbar{
+        display: none;
+    }
+}
+/* editing the scrollbar */
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(247, 128, 128);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(85, 110, 120);
+}
+.listParent{
+    list-style: none;
+}
+.optionIcon{
+    margin: 0.5em;
+    margin-right:1.3em;
+    font-size: 20px;
+}
+.option{
+    font-size: 1.4rem;
+}
+.option{
+    margin: 0.2em;
+    padding: 0.2em;
+    cursor: pointer;
+}
+.option:hover{
+    background-color:#DDDDDD ;
+}
+.seeMore{
+    cursor: pointer;
+    display: flex;
+    margin: 0.5em;
+    font-size: 1.3em;
+    padding: 0.6em;
+    border-radius: 10px;
+    background-color: #F5EDDC;
+    width: 135px;
+}
+
+.seeMore-icon{
+    margin:0 0.5em;
+}
+
+/* Friends */
+.friendbox{
+    display: flex;
+    align-items: center;
+    margin: 0.5em 0;
+    border-radius: 15px;
+    padding: 0.5em 0.3em;
+}

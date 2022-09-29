@@ -1,0 +1,121 @@
+.topbar{
+    background-color:blue;
+    height:65px;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.topbar-left{
+    flex: 1.5;
+}
+.topbar-center{
+    flex: 3;
+    justify-self: center;
+}
+.topbar-right{
+    display: flex;
+    flex: 1;
+    justify-self: right;
+}
+.topbar-right-links{
+    display: flex;
+    margin-right: 0.5em;
+}
+
+/* header */
+.appName{
+    color:white;
+    padding: 0.3em;
+    margin-right: 0.4em;
+}
+
+/* search */
+.searchContainer{
+    display: flex;
+    align-items: center;
+    width: auto;
+    max-width: 200px;
+    max-width: 500px;
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 20px;
+}
+.searchinput{
+    outline: none;
+    border: none;
+    padding: 0.2em;
+    font-size: 1rem;
+    width: 100%;
+}
+.searchIcon{
+    margin-right: 0.4em;
+}
+
+@media screen and (max-width:700px) {
+    .searchContainer{
+        display: none;
+    }
+}
+
+/* Navlink */
+.navlink{
+    display: flex;
+    align-items: center;
+    margin-right: 0.5em;
+    flex: 2;
+}
+.navlink .div{
+    color: whitesmoke;
+    margin: 0 0.4em;
+    padding: 0.4em;
+}
+.navlink div:hover{
+    background-color: rgb(116, 228, 239);
+    color: blue;
+}
+@media screen and (max-width:900px) {
+    .navlink{
+        display: none;
+    }
+}
+/* Navicons */
+.NavIcons{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.NavIcons-search,.NavIcons-menu{
+    display: none;
+}
+@media screen and (max-width:700px) {
+    .NavIcons-search{
+        display: flex;
+    }
+}
+@media screen and (max-width:400px) {
+    .NAVICON-USER{
+        display: none;
+    }
+}
+@media screen and (max-width:900px) {
+    .NavIcons-menu{
+        display: flex;
+    }
+}
+.menuOption{
+    text-decoration: none;
+}
+/* UserInfo */
+.useravatar{
+
+    margin: 20px;
+}
+@media screen and (max-width:500px) {
+    .useravatar{
+        display: none;
+    }
+}

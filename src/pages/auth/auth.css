@@ -1,0 +1,82 @@
+.auth-parent{
+    background-color: rgb(66, 66, 243); 
+    height: 100vh;
+
+}
+.app-title-in-auth{
+    color: wheat;
+    padding: 20px;
+}
+
+.auth-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: calc(100vh - 150px);
+}
+.auth-title{
+    width: 50%;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.auth-box{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: #CCD1E4;
+    padding: 2em;
+    margin: 2em;
+    border-radius: 30px;
+}
+@media screen and (max-width:600px) {
+    .auth-title{
+        display: none;
+    }
+
+
+}
+.authField{
+    margin: 0.5em;
+    padding: 0.8em;
+    font-size: 1.1em;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+.authbtn{
+    padding: 1em;
+    margin: 0.5em;
+    background-color: #1363DF;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.authbtn:disabled{
+    background-color: rgb(135, 135, 227);
+}
+.toggler{
+    text-align: center;
+    font-size: 1rem;
+}
+.toggler:hover{
+   cursor: pointer;
+}
+
+.google{
+    width: 200px;
+    text-align: center;
+    display: block;
+    padding: 0.5em;
+    margin: 0.5em auto;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.google:disabled{
+    background-color: rgb(249, 131, 88);
+}

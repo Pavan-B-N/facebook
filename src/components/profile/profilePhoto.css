@@ -1,0 +1,59 @@
+.profilephoto{
+    width: 100%;
+    position: relative;
+    margin-bottom: 150px;
+}
+.coverImg{
+    object-fit: cover;
+    height:200px;
+    width: 100%;
+}
+.profilePicture{
+    width: 200px;
+    position: absolute;
+    top:50%;
+    left: 40%;
+    text-align: center;
+}
+@media screen and (max-width:600px) {
+    .profilePicture{
+        left: 25%;
+    }
+}
+.user-deatils{
+    margin: 0.5em;
+}
+/* Friends */
+.noFriends{
+    font-size:1.2rem;
+    margin: auto;
+}
+
+.follow{
+    text-align: center;
+    margin: 0.1em auto;
+    width: 70%;
+    padding-bottom: 5px;
+}
+
+.friendBoxContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.friends{
+    width: 150px;
+    height: 150px;
+    margin: 0.5em;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.friendImage{
+    object-fit: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100px;
+    margin: 0.2em;
+}
+

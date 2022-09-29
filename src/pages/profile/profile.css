@@ -1,0 +1,30 @@
+.profileContainer{
+    display: flex;
+    height:calc(100vh - 65px);
+}
+.profile{
+    width: 100%;
+    overflow-y: auto;
+}
+.title{
+    margin: 0.3em;
+    color: rgb(131, 43, 43);
+    font-size: 1.2rem;
+}
+.profile-friends{
+    display: flex;
+}
+
+@media screen and (max-width:900px) {
+    .profile-friends{
+        flex-direction: column-reverse;
+    }
+}
+
+.post-box{
+    flex: 2;
+    overflow-y: auto;
+}
+.detail-friend-box{
+    flex: 1.5;
+}
