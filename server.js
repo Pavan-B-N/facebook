@@ -44,7 +44,5 @@ app.get("/",(req,res)=>{
     res.send("<h1>Facebook server</h1>")
 })
 
-const d=require("./demo")
-app.use("/d",d)
 
 app.listen(port,()=>console.log(`server started with port ${port}`))
